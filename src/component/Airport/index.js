@@ -81,7 +81,11 @@ const Airport = (props) => {
                   <Button
                     variant="primary"
                     style="fill"
-                    onPress={onAddNewAirport}
+                    onPress={() => {
+                      onAddNewAirport();
+                      close();
+                      }
+                    }
                   >
                     Add
                   </Button>
