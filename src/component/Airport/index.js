@@ -34,6 +34,10 @@ const Airport = (props) => {
     };
 
     addNewAirport(newAirport);
+    setAirportName("");
+    setCountry("");
+    setCode("");
+    setTerminals("");
   };
 
   return (
