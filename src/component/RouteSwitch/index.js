@@ -11,19 +11,76 @@ import ListPage from "../ListPage";
 let airportDataList = [
   {
     id: uuidv4(),
-    name: "Charizard",
-    country: "Fire, Flying",
-    code: "67",
-    terminals: "122",
+    name: "Ocean Breeze International Airport",
+    country: "Bahamas",
+    code: "OBI",
+    terminals: 3,
   },
   {
     id: uuidv4(),
-    name: "Pikachu",
-    country: "Electric",
-    code: "100",
-    terminals: "123",
+    name: "Maple Leaf Regional Airport",
+    country: "Canada",
+    code: "MLR",
+    terminals: 4,
+  },
+  {
+    id: uuidv4(),
+    name: "Emerald Coast Airport",
+    country: "Australia",
+    code: "ECA",
+    terminals: 2,
+  },
+  {
+    id: uuidv4(),
+    name: "Golden Gate International Airport",
+    country: "United States",
+    code: "GGI",
+    terminals: 5,
+  },
+  {
+    id: uuidv4(),
+    name: "Skyline Gateway Airport",
+    country: "United Kingdom",
+    code: "SGA",
+    terminals: 3,
+  },
+  {
+    id: uuidv4(),
+    name: "Desert Oasis International Airport",
+    country: "United Arab Emirates",
+    code: "DOI",
+    terminals: 6,
+  },
+  {
+    id: uuidv4(),
+    name: "Coconut Bay Airport",
+    country: "Jamaica",
+    code: "CBA",
+    terminals: 2,
+  },
+  {
+    id: uuidv4(),
+    name: "Silver Peak Airport",
+    country: "New Zealand",
+    code: "SPA",
+    terminals: 3,
+  },
+  {
+    id: uuidv4(),
+    name: "Sunset Horizon Airport",
+    country: "South Africa",
+    code: "SHA",
+    terminals: 4,
+  },
+  {
+    id: uuidv4(),
+    name: "Lotus Blossom International Airport",
+    country: "Thailand",
+    code: "LBI",
+    terminals: 5,
   },
 ];
+
 
 const RouteSwitch = () => {
   const [airportData, setAirportData] = useState(airportDataList);
