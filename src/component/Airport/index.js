@@ -28,6 +28,7 @@ const Airport = (props) => {
     const newAirport = {
       id: uuidv4(),
       name: airportName,
+      code,
       country,
       terminals,
     };
